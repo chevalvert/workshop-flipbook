@@ -32,10 +32,10 @@ Dates : samedi 10/12 à 17h30 et samedi 17/12 à 14h
 
 ### Sketchs de base
 - 1 / Jeu de composition et de déplacement
-> Changement de frame == 1 ellipse en position random
-Changement de frame == 1 ellipse qui se déplace en diagonale
-Changement de frame == 1 ellipse qui se déplace en diagonale avec vue du tracé
-Changement de frame == remplissage de la scène avec ellipses
+> Changement de frame == 1 ellipse en position random  
+Changement de frame == 1 ellipse qui se déplace en diagonale  
+Changement de frame == 1 ellipse qui se déplace en diagonale avec vue du tracé  
+Changement de frame == remplissage de la scène avec ellipses  
 
 - 2 / Structures conditionnelles et itérations
 > Changement de frame == ellipses qui rebondissent sur les murs 
