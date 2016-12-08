@@ -6,7 +6,7 @@ int hauteur = 50;
 float x = 0;
 float y = 0;
 
-// setup est executé une seul fois au lancement du programme
+// setup est executé une seule fois au lancement du programme
 void setup() {
   size(800, 600); // la fenêtre fera 800px de largeur par 600px de hauteur
 }

@@ -2,7 +2,7 @@
 int largeur = 10;
 int hauteur = 10;
 
-// on définit deux vairbales "espaceX" et "espaceY"
+// on définit deux variables "espaceX" et "espaceY"
 int espaceX = largeur + 10; // espaceX est égal à "largeur" + 10
 int espaceY = hauteur + 10; // espaceY = est égal à "hauteur" + 10
 
@@ -10,7 +10,7 @@ int espaceY = hauteur + 10; // espaceY = est égal à "hauteur" + 10
 float x = 0;
 float y = 0;
 
-// setup est executé une seul fois au lancement du programme
+// setup est executé une seule fois au lancement du programme
 void setup() {
   size(400, 300); // la fenêtre fera 400px de largeur par 300px de hauteur
   background(0);
