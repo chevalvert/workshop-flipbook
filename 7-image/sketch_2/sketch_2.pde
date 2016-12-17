@@ -1,5 +1,6 @@
 // Reference
 // https://processing.org/reference/loadImage_.html
+// https://processing.org/reference/Array.html
 
 // Slideshow
 PImage[] images = new PImage[2];
