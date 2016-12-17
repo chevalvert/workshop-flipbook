@@ -10,7 +10,9 @@ public class ex6 extends Flipbook {
   // -------------------------------------------------------------------------
 
   // on définit une liste de mots
-  //String[] mots = {"Bonjour", "tout", "le", "monde", "!"};
+  // String[] mots = {"Bonjour", "tout", "le", "monde", "!"};
+  // String[] mots = {"vous", "allez", "bien", "?"};
+
   String[] mots = {"B", "o", "n", "j", "o", "u", "r", "t", "o", "u", "t", "l", "e", "m", "o", "n", "d", "e", "!"};
 
   // on définit une variable "index" à 0
@@ -18,11 +20,11 @@ public class ex6 extends Flipbook {
 
   // valeur de départ de x, et y (type float, nombre à virgule)
   float x = super.x + super.width / 2;
-  float y = super.y + super.height / 2;
+  float y = super.y + super.height / 1.5;
 
   // setup est executé une seule fois au lancement du programme
   void setup() {
-    textSize(100);      // les textes feront 50px de hauteur
+    textSize(120);      // les textes feront 50px de hauteur
     textAlign(CENTER); // on aligne les textes au centre
   }
 
@@ -30,7 +32,7 @@ public class ex6 extends Flipbook {
   void draw() {
     super.background(0); // on remplit le fond en noir
 
-    fill(255, 0, 255);       // on remplit les formes en magenta
+    fill(255, 255, 255);       // on remplit les formes en magenta
     text(mots[index], x, y); // on affiche le mot de la liste numéro "index" en (x,y)
 
     index = index + 1; // on incrémente de 1 "index"

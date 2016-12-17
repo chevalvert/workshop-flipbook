@@ -1,3 +1,7 @@
+// salle snoezellen
+
+
+
 import processing.serial.*;
 import codeanticode.syphon.*;
 
@@ -23,20 +27,22 @@ void setup() {
 
   /////// sketchs atelier ///////
 
-  // flipbooks.add(new Top(this, 'A', 0, 0));
-  // flipbooks.add(new Bottom(this, 'B', 0, height / 2, width, height / 2));
-  
-   flipbooks.add(new ex0(this, 'A', 0, 0));
-  // flipbooks.add(new ex0(this, 'B', 0, height / 2, width, height / 2));
+  // flipbooks.add(new Insect(this, 'A', 0, 0));
 
-  // flipbooks.add(new ex1(this, 'A', 0, 0));
+  //flipbooks.add(new Top(this, 'A', 0, 0));
+  //flipbooks.add(new Bottom(this, 'B', 0, height / 2, width, height / 2));
+
+  // compteur frames
+  flipbooks.add(new ex0(this, 'A', 0, 0));
+
+  //flipbooks.add(new ex1(this, 'A', 0, 0));
   // flipbooks.add(new ex2(this, 'B', 0, height / 2, width, height / 2));
 
-  // flipbooks.add(new ex3(this, 'A', 0, 0));
-  // flipbooks.add(new ex4(this, 'B', 0, height / 2, width, height / 2));
+  //flipbooks.add(new ex3(this, 'A', 0, 0));
+  //flipbooks.add(new ex4(this, 'B', 0, height / 2, width, height / 2));
 
-  // flipbooks.add(new ex5(this, 'A', 0, 0));
-  // flipbooks.add(new ex6(this, 'B', 0, height / 2, width, height / 2));
+  //flipbooks.add(new ex5(this, 'A', 0, 0));
+  flipbooks.add(new ex6(this, 'B', 0, height / 2, width, height / 2));
 
 
   syphon = new SyphonServer(this, "flipbooks");
