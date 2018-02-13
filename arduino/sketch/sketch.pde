@@ -10,7 +10,7 @@ SyphonServer syphon;
 ArrayList<Flipbook> flipbooks;
 
 void settings() {
-  size(220, 170*2, P2D);
+  size(440, 340, P2D);
   PJOGL.profile = 1;
 }
 
@@ -34,6 +34,7 @@ void setup() {
 
   // compteur frames
   flipbooks.add(new ex0(this, 'A', 0, 0));
+  flipbooks.add(new ex0(this, 'B', 0, height / 2, width, height / 2));
 
   //flipbooks.add(new ex1(this, 'A', 0, 0));
   // flipbooks.add(new ex2(this, 'B', 0, height / 2, width, height / 2));
@@ -42,7 +43,7 @@ void setup() {
   //flipbooks.add(new ex4(this, 'B', 0, height / 2, width, height / 2));
 
   //flipbooks.add(new ex5(this, 'A', 0, 0));
-  flipbooks.add(new ex6(this, 'B', 0, height / 2, width, height / 2));
+  //flipbooks.add(new ex6(this, 'B', 0, height / 2, width, height / 2));
 
 
   syphon = new SyphonServer(this, "flipbooks");

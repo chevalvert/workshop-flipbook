@@ -12,7 +12,7 @@ public class ex0 extends Flipbook {
   int x, y, width, height;
 
   void setup() {
-    textSize(80);
+    textSize(120);
     textAlign(CENTER, CENTER);
   }
 
@@ -20,7 +20,7 @@ public class ex0 extends Flipbook {
     super.background(0);
 
     fill(255, 255, 255);
-    text(super.frameCount, super.width / 2, super.y + super.height / 2);
+    text(super.frameCount, super.width / 2, super.y + super.height / 1.75);
   }
   
 }
